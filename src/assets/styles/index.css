@@ -14,3 +14,10 @@ body {
   background: url('../images/fondo-1.svg') no-repeat center bottom;
   background-size: contain;
 }
+
+.MainSugerenciasContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center; 
+}

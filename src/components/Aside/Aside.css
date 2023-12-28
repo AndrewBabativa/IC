@@ -12,11 +12,14 @@ aside {
     align-items: flex-start;
     padding: 0px;
     width: 20%;
-    height: 294px;
+    min-width: 200px; 
+    max-width: 300px; 
+    height: auto;
     filter: drop-shadow(0px 8px 24px rgba(26, 34, 40, 0.2));
     flex: none;
     flex-grow: 0;
     background-color: transparent;
+     overflow: hidden;
 }
 
 .frame-35 {
@@ -67,7 +70,16 @@ aside {
 }
 
 .frame-36.card-1 {
-    background: #FFCABF;
+    display: flex; /* Usa flexbox para controlar el diseño */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: flex-start; /* Alinea los elementos a la izquierda */
+    padding: 20px; /* Ajusta el padding según sea necesario */
+    gap: 16px; /* Espacio entre los elementos internos */
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    height: auto; /* Usa la altura automática para ajustarse al contenido */
+    box-sizing: border-box; /* Incluye el padding en el ancho y la altura */
+    background-color: #FFCABF; /* Color de fondo */
+    overflow: hidden; /* Oculta el contenido que se desborde */
 }
 
 /* Frame 37 */
@@ -115,7 +127,6 @@ aside {
 }
 
 .test-button {
-    width: 174px;
     height: 22px;
     font-family: 'Barlow';
     font-style: normal;
@@ -150,15 +161,14 @@ aside {
     justify-content: center;
     align-items: center;
     padding: 9px 24px;
-    gap: 10px;
-    width: 14em;
-    height: 40px;
+    width: auto;
     background: #2E3C46;
     border-radius: 20px;
     flex: none;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
+    min-width: 12.5em;
 }
 
 /* Card 2 */

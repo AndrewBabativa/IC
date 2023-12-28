@@ -52,7 +52,6 @@ const Main: React.FC = () => {
               <span className='preference'>Ver todos</span>
             </div>
 
-            ({index} === 0  && (
             <div className="tab-content-main">
               <div className="tab-content-main-photo">
                 <img src="https://www.reuters.com/resizer/fFtLyfvK4eERH9otyTu1NTrrJAs=/960x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/QY32QEPJIRL2XFBP5ZHV6NL5SU.jpg" alt="eu" />
@@ -73,7 +72,6 @@ const Main: React.FC = () => {
                 </div>
               </div>
             </div>
-            ))
 
             <div className="tab-content-general">
               <div className="tab-content-general-photo">
@@ -82,7 +80,7 @@ const Main: React.FC = () => {
               <div className="tab-content-general-sumary">
                 <div className="tab-content-main-title">EU trade relationships by country</div>
                 <div className="tab-content-main-text">
-                The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million...
+                  The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million...
                 </div>
                 <div className="tab-content-footer-filter">
                   <span className='preference'>Nombre preferencia</span>
@@ -95,28 +93,6 @@ const Main: React.FC = () => {
                 </div>
               </div>
             </div>
-
-            <div className="tab-content-general">
-              <div className="tab-content-general-photo">
-                <img src="https://afripoli.org/uploads/images/2021/11/image_750x_61990f5b884ee.jpg" alt="eu" />
-              </div>
-              <div className="tab-content-general-sumary">
-                <div className="tab-content-main-title">EU trade relationships by country</div>
-                <div className="tab-content-main-text">
-                The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million...
-                </div>
-                <div className="tab-content-footer-filter">
-                  <span className='preference'>Nombre preferencia</span>
-                </div>
-                <div className="tab-content-footer">
-                  <div className="tab-content-footer-date">Agust 21</div>
-                  <div className="tab-content-footer-tag">● By European Commision</div>
-                  <FontAwesomeIcon icon={faLink} className="tab-content-footer-share" color="#D4D8DB" />
-                  <FontAwesomeIcon icon={faBookmark} className='tab-content-footer-save' color="#D4D8DB" />
-                </div>
-              </div>
-            </div>
-
           </div>
         ))}
       </div>

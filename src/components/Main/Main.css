@@ -16,9 +16,10 @@
 
 .tabs {
     display: flex;
-    gap: 8%;
+    gap: 1.2em;
     border-bottom: 3px solid #384651;
     padding-left: 0;
+    min-width: 100%;
 }
 
 .tab {
@@ -31,6 +32,7 @@
     border-bottom: 3px solid #2E3C46;
     cursor: pointer;
     padding-right: 0.5em;
+    min-width: 80px
 }
 
 .tab:hover {
@@ -44,17 +46,16 @@
 }
 
 .tab-icon {
-    height: 40px;
-    width: 40px;
-    margin-bottom: 8px;
-}
-
+    height: 24px; /* Establece un tamaño mínimo para los iconos */
+    width: 24px; /* Establece un tamaño mínimo para los iconos */
+    margin-bottom: 4px; /* Ajusta el espacio entre el icono y el texto */
+  }
 
 .tab-text {
     color: #EFF4F1;
     font-weight: 600;
-    font-size: 15px;
-    text-align: center;
+    font-size: 12px; 
+    text-align: center;  
 }
 
 .tab-content-filter {
@@ -83,7 +84,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    width: auto;
+    width: 41em;
     height: auto;
     max-width: 100%;
     background-color: #2E3C46;
@@ -211,3 +212,14 @@ line-height: 19px;
 color: #D4D8DB;
 text-align: center;
 }
+
+@media (min-width: 768px) {
+    .tab-icon {
+      height: 32px; /* Ajusta el tamaño del icono para pantallas más grandes */
+      width: 32px; /* Ajusta el tamaño del icono para pantallas más grandes */
+    }
+  
+    .tab-text {
+      font-size: 14px; /* Ajusta el tamaño del texto para pantallas más grandes */
+    }
+  }
