@@ -52,6 +52,8 @@ const Main: React.FC = () => {
               <span className='preference'>Ver todos</span>
             </div>
 
+            ({index} === 0  && (
+
             <div className="tab-content-main">
               <div className="tab-content-main-photo">
                 <img src="https://www.reuters.com/resizer/fFtLyfvK4eERH9otyTu1NTrrJAs=/960x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/QY32QEPJIRL2XFBP5ZHV6NL5SU.jpg" alt="eu" />
