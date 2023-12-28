@@ -7,9 +7,43 @@ import country from '../../assets/images/paises.svg';
 import figures from '../../assets/images/publicaciones.svg';
 import './Main.css';
 import { faBookmark, faCircleChevronRight, faLink } from '@fortawesome/free-solid-svg-icons';
+import { News } from '../../models/news.model';
 
 const Main: React.FC = () => {
-  const [content] = useState([{}]);
+  let news: News[] = [{
+    id: 1,
+    image: 'https://www.reuters.com/resizer/fFtLyfvK4eERH9otyTu1NTrrJAs=/960x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/QY32QEPJIRL2XFBP5ZHV6NL5SU.jpg',
+    title: 'EU trade relationships by country',
+    sumary: 'The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...',
+    date: 'August 21',
+    source: 'By European Commision',
+  },
+  {
+    id: 2,
+    image: 'https://images.unsplash.com/photo-1608817576203-3c27ed168bd2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    title: 'EU trade relationships by country',
+    sumary: 'The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...',
+    date: 'August 21',
+    source: 'By European Commision',
+  },
+  {
+    id: 3,
+    image: 'https://afripoli.org/uploads/images/2021/11/image_750x_61990f5b884ee.jpg',
+    title: 'EU trade relationships by country',
+    sumary: 'The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...',
+    date: 'August 21',
+    source: 'By European Commision',
+  },
+  {
+    id: 4,
+    image: 'https://www.pubaffairsbruxelles.eu/wp-content/uploads/2023/02/shutterstock_254848015-scaled.jpg',
+    title: 'EU trade relationships by country',
+    sumary: 'The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...',
+    date: 'August 21',
+    source: 'By European Commision',
+  }];
+
+  const [content, setContent] = useState(news);
 
   return (
     <main>
@@ -82,8 +116,13 @@ const Main: React.FC = () => {
                 <div className="tab-content-main-text">
                   The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million...
                 </div>
-                <div className="tab-content-footer-filter">
-                  <span className='preference'>Nombre preferencia</span>
+              </>
+            }
+
+            {index !== 0 &&
+              <div className="tab-content">
+                <div className="tab-content-photo">
+                  <img src={item.image} alt="eu" />
                 </div>
                 <div className="tab-content-footer">
                   <div className="tab-content-footer-date">Agust 21</div>

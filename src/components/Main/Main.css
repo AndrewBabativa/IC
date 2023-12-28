@@ -5,7 +5,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     filter: drop-shadow(0px 4px 24px rgba(26, 34, 40, 0.2));
-    width: 43%;
+    width: 45%;
     max-width: 100%;
     background-color: #2E3C46;
     border-radius: 12px;
@@ -23,12 +23,11 @@
 }
 
 .tab {
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 12px 0;
+    padding: 12px 30px;
     border-bottom: 3px solid #2E3C46;
     cursor: pointer;
     padding-right: 0.5em;
@@ -37,12 +36,14 @@
 
 .tab:hover {
     border-bottom: 3px solid #FF5C39;
-    padding-left: 0;
+}
+
+.tab:hover:last-child {
+    border-bottom: transparent;
 }
 
 .tab.active {
     border-bottom: 3px solid #FF5C39;
-    padding-left: 0;
 }
 
 .tab-icon {
@@ -67,20 +68,24 @@
     color: #b4c5cf;
 }
 
-.tab-content-main-footer-filter {
+.tab-content-main-footer-filter span,
+.tab-content-footer-filter span,
+.preference {
     padding: 0.3% 1.5%;
+    font-size: 14px;
     border-radius: 12px;
     background-color: #425563;
 }
 
 .tab-content-filter span:last-child {
-    padding: 0;
     color: #b27571;
-    font-weight: 600;
+    font-weight: 700;
     background-color: transparent;
+    cursor: pointer;
 }
 
-.tab-content-main {
+.tab-content-main,
+.tab-content {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -91,105 +96,95 @@
     border-radius: 8px;
 }
 
-.tab-content-main-photo {
+.tab-content {
+    margin-top: 3%;
+}
+
+.tab-content-main-photo,
+.tab-content-photo {
     flex: 1;
 }
 
-.tab-content-main-photo img {
+.tab-content-main-photo img,
+.tab-content-photo img {
     width: 100%;
     border-radius: 5%;
     object-fit: cover;
 }
 
 .tab-content-main-sumary {
-    flex: 1;
+    flex: 1.2;
 }
 
-.tab-content-general {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    background-color: #2E3C46;
-    margin-top:2%;
+.tab-content-sumary {
+    flex: 3.2;
 }
 
-.tab-content-general-photo {
-    flex: 0 0 30%;
-    max-width: 30%; 
-}
-
-.tab-content-general-sumary {
-    flex: 1 1 70%; 
-    max-width: 70%; 
-}
-
-.tab-content-general-photo img {
-    width: 100%;
-    border-radius: 5%;
-    object-fit: cover;
-}
-
-
-.tab-content-main .tab-content-main-photo img {
-    width: 100%;
-    border-radius: 5%;
-    object-fit: cover;
-}
-
-.tab-content-main.active {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-.tab-content-main-title {
+.tab-content-main-title,
+.tab-content-title {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 17px;
     color: #FFFFFF;
 }
 
-.tab-content-main-text {
+.tab-content-main-text,
+.tab-content-text {
     font-family: 'Barlow', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    color: hsl(206, 9%, 85%);
+}
+
+.tab-content-main-footer-filter {
+    margin: 30px 0 10px 0;
+}
+
+.tab-content-main-footer-filter span {
+    color: #D4D8DB;
+}
+
+.tab-content-main-footer {
+    display: flex;
+    font-size: 12px;
     color: #D4D8DB;
 }
 
 .tab-content-footer {
     display: flex;
-    align-items: center;
-    font-size: 12px; 
+    margin-top: 30px;
+    font-size: 12px;
     color: #D4D8DB;
-  }
-
-.tab-content-footer-date {
-  color: #D4D8DB; 
-  margin-right: 10px;
-  font-size: 12px;
 }
 
-.tab-content-footer-tag{
-    color: #D4D8DB; 
+.tab-content-footer-filter {
+    display: inline-block;
+}
+
+.tab-content-footer-filter span {
+    padding: 3px 5px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.tab-content-main-footer-source,
+.tab-content-main-footer-date {
+    color: #b8b8b8;
     margin-right: 10px;
     font-size: 12px;
 }
 
-.tab-content-footer-share
- {
-  color: #D4D8DB;
-  margin-left: auto; 
-  font-size: 12px;
+.tab-content-footer-date,
+.tab-content-footer-source {
+    color: #9a9a9b;
+    margin: 0 10px;
+    font-size: 14px;
 }
 
-.tab-content-footer-save{
-    color: #D4D8DB;
-    margin-left: 5%; 
-    font-size: 12px;
-    
+.tab-content-main-footer-share,
+.tab-content-footer-share {
+    margin-left: auto;
+    font-size: 14px;
 }
 
 .preference{
@@ -223,3 +218,8 @@ text-align: center;
       font-size: 14px; /* Ajusta el tamaño del texto para pantallas más grandes */
     }
   }
+.tab-content-main-footer-save,
+.tab-content-footer-save {
+    margin-left: 5%;
+    font-size: 14px;
+}
