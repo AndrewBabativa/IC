@@ -23,7 +23,7 @@ const Main: React.FC = () => {
 
   return (
     <main>
-      <div className="container">
+      <div className="container-main">
         <div className="tabs">
           <span className="tab active">
             <img src={todo} alt="todo" className="tab-icon" />

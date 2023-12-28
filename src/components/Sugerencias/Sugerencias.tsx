@@ -5,7 +5,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Sugerencias: React.FC = () => {
   return (
-    <div className="container">
+    <div className="container-sugerencias">
       <div className="Frame70">
         <div className="Frame73">
           <div className="sugerencias">Sugerencias</div>

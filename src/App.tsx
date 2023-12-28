@@ -12,10 +12,10 @@ function App() {
       <Banner />
       <Aside />
       <div className='row'>
-        <div className='offset-md-1 col-md-5'>
+        <div className='offset-md-2 col-md-5'>
           <Main />
         </div>
-        <div className='offset-md-1 col-md-5'>
+        <div className='col-md-1'>
           <Sugerencias />
         </div>
       </div>
