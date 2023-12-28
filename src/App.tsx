@@ -15,10 +15,11 @@ function App() {
         <div className='offset-md-1 col-md-5'>
           <Main />
         </div>
-        <div className='offset-md-1 col-md-3'>
+        <div className='offset-md-1 col-md-5'>
           <Sugerencias />
         </div>
       </div>
+
       <Footer />
     </>
   );
