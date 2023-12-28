@@ -17,31 +17,7 @@ const Main: React.FC = () => {
     sumary: 'The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...',
     date: 'August 21',
     source: 'By European Commision',
-  },
-  {
-    id: 2,
-    image: 'https://images.unsplash.com/photo-1608817576203-3c27ed168bd2?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    title: 'EU trade relationships by country',
-    sumary: 'The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...',
-    date: 'August 21',
-    source: 'By European Commision',
-  },
-  {
-    id: 3,
-    image: 'https://afripoli.org/uploads/images/2021/11/image_750x_61990f5b884ee.jpg',
-    title: 'EU trade relationships by country',
-    sumary: 'The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...',
-    date: 'August 21',
-    source: 'By European Commision',
-  },
-  {
-    id: 4,
-    image: 'https://www.pubaffairsbruxelles.eu/wp-content/uploads/2023/02/shutterstock_254848015-scaled.jpg',
-    title: 'EU trade relationships by country',
-    sumary: 'The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...',
-    date: 'August 21',
-    source: 'By European Commision',
-  }];
+}];
 
   const [content, setContent] = useState(news);
 
@@ -93,36 +69,10 @@ const Main: React.FC = () => {
               <div className="tab-content-main-sumary">
                 <div className="tab-content-main-title">EU trade relationships by country</div>
                 <div className="tab-content-main-text">
-                  The EU anhid New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...
+                  The EU anhid New Zealand have today signed their free tra de agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...
                 </div>
                 <div className="tab-content-footer-filter">
                   <span className='preference'>Nombre preferencia</span>
-                </div>
-                <div className="tab-content-footer">
-                  <div className="tab-content-footer-date">Agust 21</div>
-                  <div className="tab-content-footer-tag">● By European Commision</div>
-                  <FontAwesomeIcon icon={faLink} className="tab-content-footer-share" color="#D4D8DB" />
-                  <FontAwesomeIcon icon={faBookmark} className='tab-content-footer-save' color="#D4D8DB" />
-                </div>
-              </div>
-            </div>
-
-            <div className="tab-content-general">
-              <div className="tab-content-general-photo">
-                <img src="https://www.pubaffairsbruxelles.eu/wp-content/uploads/2023/02/shutterstock_254848015-scaled.jpg" alt="eu" />
-              </div>
-              <div className="tab-content-general-sumary">
-                <div className="tab-content-main-title">EU trade relationships by country</div>
-                <div className="tab-content-main-text">
-                  The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million...
-                </div>
-              </>
-            }
-
-            {index !== 0 &&
-              <div className="tab-content">
-                <div className="tab-content-photo">
-                  <img src={item.image} alt="eu" />
                 </div>
                 <div className="tab-content-footer">
                   <div className="tab-content-footer-date">Agust 21</div>
