@@ -62,14 +62,14 @@ const Main: React.FC = () => {
                 <div className="tab-content-main-text">
                   The EU anhid New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...
                 </div>
-                <div className="tab-content-main-footer">
-                  <div className="tab-content-main-footer-filter">
-                    <span>Nombre preferencia</span>
-                  </div>
-                  <div className="tab-content-main-footer-date">Agust 21</div>
-                  <div className="tab-content-main-footer-tag">● By European Commision</div>
-                  <FontAwesomeIcon icon={faLink} className="tab-content-main-footer-share" color="#EFF4F1" />
-                  <FontAwesomeIcon icon={faBookmark} className='tab-content-main-footer-save' color="#EFF4F1" />
+                <div className="tab-content-footer-filter">
+                  <span className='preference'>Nombre preferencia</span>
+                </div>
+                <div className="tab-content-footer">
+                  <div className="tab-content-footer-date">Agust 21</div>
+                  <div className="tab-content-footer-tag">● By European Commision</div>
+                  <FontAwesomeIcon icon={faLink} className="tab-content-footer-share" color="#D4D8DB" />
+                  <FontAwesomeIcon icon={faBookmark} className='tab-content-footer-save' color="#D4D8DB" />
                 </div>
               </div>
             </div>

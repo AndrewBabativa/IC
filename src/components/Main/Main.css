@@ -168,25 +168,46 @@
 .tab-content-footer-date {
   color: #D4D8DB; 
   margin-right: 10px;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .tab-content-footer-tag{
     color: #D4D8DB; 
     margin-right: 10px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .tab-content-footer-share
  {
   color: #D4D8DB;
   margin-left: auto; 
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .tab-content-footer-save{
     color: #D4D8DB;
     margin-left: 5%; 
-    font-size: 14px;
+    font-size: 12px;
     
+}
+
+.preference{
+
+/* gray 700 */
+background: #425563;
+border-radius: 8px;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+width: 119px;
+height: 19px;
+
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 13.5px;
+line-height: 19px;
+color: #D4D8DB;
+text-align: center;
 }
