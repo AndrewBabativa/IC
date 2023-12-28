@@ -9,7 +9,7 @@ import './Main.css';
 import { faBookmark, faCircleChevronRight, faLink } from '@fortawesome/free-solid-svg-icons';
 
 const Main: React.FC = () => {
-  const [content, setContent] = useState([{}]);
+  const [content] = useState([{}]);
 
   return (
     <main>
