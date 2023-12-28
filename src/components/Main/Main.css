@@ -48,6 +48,11 @@
     margin-bottom: 8px;
 }
 
+.tab-icon:last-child {
+    height: 25px;
+    width: 25px;
+}
+
 .tab-text {
     color: #EFF4F1;
     font-weight: 600;
