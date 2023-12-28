@@ -1,0 +1,17 @@
+<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="filter0_d_403_3889">
+   <feBlend in2="BackgroundImageFix"/>
+   <feBlend in="SourceGraphic" in2="effect1_dropShadow_403_3889"/>
+  </filter>
+ </defs>
+<g filter="url(#filter0_d_403_3889)">
+<rect fill="#EFF4F1" height="3.22" width="3.22" x="2.3" y="20.53"/>
+<path d="m4.45,2.28c0,-1.19 0.96,-2.15 2.14,-2.15l15.04,0c1.19,0 2.15,0.96 2.15,2.15l0,19.32c0,1.19 -0.96,2.15 -2.15,2.15l-17.18,0l0,-21.47z" fill="#EFF4F1" id="svg_3"/>
+<path d="m0.15,10.87c0,-0.6 0.48,-1.08 1.07,-1.08l3.22,0l0,11.81c0,1.19 -0.96,2.15 -2.15,2.15c-1.18,0 -2.14,-0.96 -2.14,-2.15l0,-10.73z" fill="#8BA293" id="svg_4"/>
+<rect fill="#FFA692" height="6.75"  rx="1.27" width="14.34" x="7.17" y="2.66"/>
+<path d="m7.67,12.78l12.88,0" stroke="#8BA293" stroke-linecap="round" stroke-width="1.78"/>
+<path d="m7.67,16.23l12.88,0" stroke="#8BA293" stroke-linecap="round" stroke-width="1.78"/>
+<path d="m7.67,19.68l12.88,0" stroke="#8BA293" stroke-linecap="round" stroke-width="1.78"/>
+</g>
+</svg>

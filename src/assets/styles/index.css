@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Raleway&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Raleway', 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2f3d48;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  background: url('../images/fondo-1.svg') no-repeat center bottom;
+  background-size: contain;
+}

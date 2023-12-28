@@ -1,0 +1,30 @@
+/* Group 65 */
+.group-65 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12%;
+    width: 958px;
+    height: 146px;
+    margin: 0 auto;
+}
+
+.expand-horizons {
+    width: 590px;
+    height: 97px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34.6387px;
+    line-height: 48px;
+    /* or 140% */
+    color: #FFEFEB;
+    /* orange 100 */
+
+}
+
+.banner {
+    width: 328px;
+    height: 146px;
+    background: url('../../assets/images/world.svg');
+}

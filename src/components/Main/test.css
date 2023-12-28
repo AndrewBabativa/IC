@@ -1,0 +1,1055 @@
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 3% auto;
+}
+
+/* Frame 66 */
+.frame-66 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px 24px;
+    gap: 24px;
+    width: 745px;
+    height: 153px;
+    background: #2E3C46;
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Frame 55 */
+.frame-55 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 16px 0px 0px;
+    gap: 16px;
+    width: 745px;
+    height: 98px;
+    border-bottom: 1px solid #425563;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Frame 52 */
+.frame-52 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 673px;
+    height: 98px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Group 66 */
+.group-66 {
+    width: 660px;
+    height: 98px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Frame 46 selected or mousever */
+.frame-46 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 4px;
+    position: absolute;
+    width: 95.06px;
+    height: 98px;
+    left: 0px;
+    top: 0px;
+    border-bottom: 3px solid #FF5C39;
+}
+
+/* Frame 45 */
+.frame-45 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(0px 4px 24px rgba(26, 34, 40, 0.2));
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Todo */
+.todo {
+    width: 33px;
+    height: 22px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.19px;
+    line-height: 21px;
+    color: #EFF4F1;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Frame 47 */
+.frame-47 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 4px;
+    position: absolute;
+    width: 114.5px;
+    height: 98px;
+    left: 95.06px;
+    top: 0px;
+}
+
+/* Mercados */
+.mercados {
+    width: 65px;
+    height: 22px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.19px;
+    line-height: 21px;
+    color: #DFEAE3;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Frame 48 */
+.frame-48 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 4px;
+    position: absolute;
+    width: 118.82px;
+    height: 98px;
+    left: 209.56px;
+    top: 0px;
+}
+
+/* Productos */
+.productos {
+    width: 69px;
+    height: 22px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.19px;
+    line-height: 21px;
+    color: #DFEAE3;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Frame 49 */
+.frame-49 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 4px;
+    position: absolute;
+    width: 95.06px;
+    height: 98px;
+    left: 328.38px;
+    top: 0px;
+}
+
+/* Modo_de_aislamiento */
+.modo-de-aislamiento {
+    position: absolute;
+    width: 28px;
+    height: 30px;
+    left: 8px;
+    top: 6.5px;
+}
+
+/* Países */
+.paises {
+    width: 43px;
+    height: 22px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.19px;
+    line-height: 21px;
+    color: #DFEAE3;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Frame 50 */
+.frame-50 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 4px;
+    position: absolute;
+    width: 141.51px;
+    height: 98px;
+    left: 423.44px;
+    top: 0px;
+}
+
+/* Frame 44 */
+.frame-44 {
+    width: 29px;
+    height: 28px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Publicaciones */
+.frame-51 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 4px;
+    position: absolute;
+    width: 95.06px;
+    height: 98px;
+    left: 564.94px;
+    top: 0px;
+}
+
+.frame-46 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(0px 4px 24px rgba(26, 34, 40, 0.2));
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Siguiente */
+.frame-74 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 40px;
+    height: 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.frame-53 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 20px;
+    gap: 12px;
+    width: 745px;
+    height: 78px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.frame-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+    width: 143px;
+    height: 27px;
+    background: #425563;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+    width: 143px;
+    height: 27px;
+    background: #425563;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.frame-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+    width: 143px;
+    height: 27px;
+    background: #425563;
+    border-radius: 8px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+/* Nombre preferencia */
+.nombre-preferencia {
+    width: 119px;
+    height: 19px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 19px;
+    color: #D4D8DB;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Frame 64 */
+.frame-64 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 397px;
+    height: 114px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Nombre preferencia */
+.nombre-preferencia {
+    width: 119px;
+    height: 19px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 19px;
+    color: #D4D8DB;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Frame 7 */
+.frame-7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+    width: 143px;
+    height: 27px;
+    background: #425563;
+    border-radius: 8px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+/* Frame 56 */
+.frame-56 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
+    gap: 10px;
+    width: 72px;
+    height: 30px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+/* Ver todos */
+.ver-todos {
+    width: 64px;
+    height: 22px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.19px;
+    line-height: 21px;
+    color: #FFCABF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Frame 65 */
+.frame-65 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px 24px;
+    gap: 24px;
+    width: 745px;
+    height: 229px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Rectangle 34 */
+.rectangle-34 {
+    width: 284px;
+    height: 205px;
+    background: url('../../assets/images/truck.svg');
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Frame 62 */
+.frame-62 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 0px 0px;
+    gap: 12px;
+    width: 397px;
+    height: 205px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Frame 64 */
+.frame-64 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 397px;
+    height: 114px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* EU trade relationships by country */
+.eu-trade-relationships {
+    width: 397px;
+    height: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.09px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some â‚¬140 million a year in duties for EU companies from the first year of application. The ... */
+.eu-trade-description {
+    width: 397px;
+    height: 86px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.19px;
+    line-height: 21px;
+    color: #D4D8DB;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Frame 63 */
+.frame-63 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 397px;
+    height: 67px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Frame 3 */
+.frame-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+    width: 143px;
+    height: 27px;
+    background: #425563;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Nombre preferencia */
+.nombre-preferencia {
+    width: 119px;
+    height: 19px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 19px;
+    color: #D4D8DB;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Frame 60 */
+.frame-60 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 44px;
+    width: 397px;
+    height: 40px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Frame 61 */
+.frame-61 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 261px;
+    height: 17px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Agust 21 */
+.agust-21 {
+    width: 44px;
+    height: 17px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #ADCAB8;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+/* Frame 60 */
+.frame-60 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 44px;
+    width: 393px;
+    height: 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Frame 61 */
+.frame-61 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 261px;
+    height: 17px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Ellipse 16 */
+.ellipse-16 {
+    width: 4px;
+    height: 4px;
+    background: #ADCAB8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* By European Commision */
+.by-european-commision {
+    width: 128px;
+    height: 17px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #ADCAB8;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+/* Frame 59 */
+.frame-59 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 92px;
+    height: 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Frame 57 */
+.frame-57 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 40px;
+    height: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* link-solid 1 */
+.link-solid-1 {
+    width: 20px;
+    height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Vector */
+.vector {
+    position: absolute;
+    left: 2.78%;
+    right: 2.79%;
+    top: 4.07%;
+    bottom: 4.07%;
+    background: #FFFFFF;
+}
+
+/* Frame 58 */
+.frame-58 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 40px;
+    height: 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* bookmark-regular */
+.bookmark-regular {
+    width: 12px;
+    height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Vector */
+.vector {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0.01%;
+    background: #FFFFFF;
+}
+
+/* Rectangle 34 */
+.rectangle-34 {
+    width: 129px;
+    height: 129px;
+    background: url('../../assets/images/truck.svg');
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Frame 62 */
+.frame-62 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 0px 0px;
+    gap: 6px;
+    width: 552px;
+    height: 129px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Frame 64 */
+.frame-64 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    width: 552px;
+    height: 71px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* EU trade relationships by country */
+.eu-trade-relationships {
+    width: 552px;
+    height: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.09px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some â‚¬140 million... */
+.eu-trade-agreement {
+    width: 552px;
+    height: 43px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.19px;
+    line-height: 21px;
+    color: #D4D8DB;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Frame 63 */
+.frame-63 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 552px;
+    height: 40px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Frame 3 */
+.frame-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+    width: 143px;
+    height: 27px;
+    background: #425563;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Nombre preferencia */
+.nombre-preferencia {
+    width: 119px;
+    height: 19px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 19px;
+    color: #D4D8DB;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Frame 60 */
+.frame-60 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 44px;
+    width: 393px;
+    height: 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Frame 61 */
+.frame-61 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 257px;
+    height: 17px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Agust 21 */
+.agust-21 {
+    width: 44px;
+    height: 17px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #ADCAB8;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Ellipse 16 */
+.ellipse-16 {
+    width: 4px;
+    height: 4px;
+    background: #ADCAB8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* By European Commision */
+.by-european-commision {
+    width: 128px;
+    height: 17px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    color: #ADCAB8;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+/* Frame 59 */
+.frame-59 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    width: 92px;
+    height: 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Frame 57 */
+.frame-57 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 40px;
+    height: 40px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* link-solid 1 */
+.link-solid-1 {
+    width: 20px;
+    height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Vector */
+.vector {
+    position: absolute;
+    left: 2.78%;
+    right: 2.79%;
+    top: 4.07%;
+    bottom: 4.07%;
+    background: #FFFFFF;
+}
+
+/* Frame 58 */
+.frame-58 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 40px;
+    height: 40px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* bookmark-regular */
+.bookmark-regular {
+    width: 12px;
+    height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Vector */
+.vector {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0.01%;
+    background: #FFFFFF;
+}
+
+/* Frame 4 */
+.frame-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    gap: 10px;
+    width: 154px;
+    height: 39px;
+    background: #ADCAB8;
+    border-radius: 20px;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+/* Ver mÃ¡s noticias */
+.ver-mas-noticias {
+    width: 98px;
+    height: 19px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.5px;
+    line-height: 19px;
+    color: #1A2228;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* arrow-right-solid 1 */
+.arrow-right-solid-1 {
+    width: 14px;
+    height: 16px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

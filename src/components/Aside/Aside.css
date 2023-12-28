@@ -1,0 +1,318 @@
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 2%;
+}
+
+/* Card 1 */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 286px;
+    height: 294px;
+    filter: drop-shadow(0px 8px 24px rgba(26, 34, 40, 0.2));
+    flex: none;
+    flex-grow: 0;
+    background-color: transparent;
+}
+
+.frame-35 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 286px;
+    height: 128px;
+    border-radius: 12px 12px 0px 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.card .card-1{
+    order: 0;
+}
+
+.frame-35.card-1 {
+    background: #FFA692;
+}
+
+.exam-time {
+    width: 192px;
+    height: 128px;
+    background: url('../../assets/images/exam.svg');
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame-36 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 16px;
+    width: 286px;
+    height: 166px;
+    border-radius: 0px 0px 12px 12px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.frame-36.card-1 {
+    background: #FFCABF;
+}
+
+/* Frame 37 */
+.frame-37 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 246px;
+    height: 70px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.test-exporter {
+    width: 246px;
+    height: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.09px;
+    line-height: 24px;
+    color: #1A2228;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.description-text {
+    width: 303px;
+    height: 38px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.19px;
+    line-height: 19px;
+    color: #425563;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.test-button {
+    width: 174px;
+    height: 22px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.19px;
+    line-height: 21px;
+    color: #ECEEEF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+/* Texto descriptivo sobre qué es esta herramienta. */
+.texto-descriptivo {
+    width: 303px;
+    height: 38px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.19px;
+    line-height: 19px;
+    color: #425563;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* Frame 8 */
+.frame-8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 24px;
+    gap: 10px;
+    width: 246px;
+    height: 40px;
+    background: #2E3C46;
+    border-radius: 20px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Card 2 */
+/* Frame 35 Color*/
+.card .card-2{
+    order: 1;
+}
+
+.frame-35.card-2 {
+    background: #BED5C6;
+}
+
+.delivery-truck {
+    width: 187px;
+    height: 125px;
+    background: url('../../assets/images/truck.svg');
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Frame 36 Color */
+.frame-36.card-2 {
+    background: #DFEAE3;
+}
+
+/* Calculadora de precios */
+.calculadora-precios {
+    width: 246px;
+    height: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.09px;
+    line-height: 24px;
+    color: #1A2228;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Calcular precios */
+.calcular-precios {
+    width: 174px;
+    height: 22px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.19px;
+    line-height: 21px;
+    color: #ECEEEF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+/* Card 3 */
+.card .card-3{
+    order: 2;
+}
+/* Frame 35 Color */
+.frame-35.card-3 {
+    background: #ECEEEF;
+}
+
+.captura-de-pantalla {
+    width: 343px;
+    height: 132px;
+    background: url('../../assets/images/world.svg');
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* Frame 36 Color */
+.frame-36.card-3 {
+    background: #FFFFFF;
+}
+
+/* Calculadora de precios competitivos */
+.calculadora-de-precios {
+    width: 246px;
+    height: 48px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.09px;
+    line-height: 24px;
+    color: #1A2228;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Calcular precios */
+.calcular-precios {
+    width: 174px;
+    height: 22px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.19px;
+    line-height: 21px;
+    color: #ECEEEF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+/* Card 4 */
+.card .card-4{
+    order: 3;
+}
+
+/* Frame 35 Color */
+.frame-35.card-4 {
+    background: #BBC2C7;
+}
+
+/* Frame 36 Color */
+.frame-36.card-4 {
+    background: #D4D8DB;
+}
+
+/* Calculadora de cubicaje */
+.calculadora-de-cubicaje {
+    width: 246px;
+    height: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.09px;
+    line-height: 24px;
+    color: #1A2228;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Calcular cubicaje */
+.calcular-cubicaje {
+    width: 174px;
+    height: 22px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.19px;
+    line-height: 21px;
+    color: #ECEEEF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
