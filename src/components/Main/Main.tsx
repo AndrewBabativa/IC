@@ -19,7 +19,7 @@ const Main: React.FC = () => {
     source: 'By European Commision',
 }];
 
-  const [content, setContent] = useState(news);
+  const [content] = useState(news);
 
   return (
     <main>
