@@ -74,6 +74,29 @@ const Main: React.FC = () => {
                 </div>
               </div>
             </div>
+
+            <div className="tab-content-general">
+              <div className="tab-content-general-photo">
+                <img src="https://www.pubaffairsbruxelles.eu/wp-content/uploads/2023/02/shutterstock_254848015-scaled.jpg" alt="eu" />
+              </div>
+              <div className="tab-content-general-sumary">
+                <div className="tab-content-main-title">EU trade relationships by country</div>
+                <div className="tab-content-main-text">
+                The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million...
+                </div>
+                <div className="tab-content-footer-filter">
+                  <span className='preference'>Nombre preferencia</span>
+                </div>
+                <div className="tab-content-footer">
+                  <div className="tab-content-footer-date">Agust 21</div>
+                  <div className="tab-content-footer-tag">● By European Commision</div>
+                  <FontAwesomeIcon icon={faLink} className="tab-content-footer-share" color="#D4D8DB" />
+                  <FontAwesomeIcon icon={faBookmark} className='tab-content-footer-save' color="#D4D8DB" />
+                </div>
+              </div>
+            </div>
+
+
           </div>
         ))}
       </div>
