@@ -97,8 +97,8 @@
 }
 
 /* Sugerencias */
-.sugerencias {
-    width: 84px;
+.sugerencias-dd {
+    width: 63px;
     height: 22px;
     font-family: 'Barlow';
     font-style: normal;
@@ -106,7 +106,6 @@
     font-size: 15.19px;
     line-height: 21px;
     color: #425563;
-    /* gray 700 */
 }
 
 /* Frame 83 */

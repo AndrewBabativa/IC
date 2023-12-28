@@ -18,7 +18,7 @@ const DropdownMenuCompany: React.FC = () => {
                 </div>
                 <div className="frame-81">
                     <FontAwesomeIcon icon={faBookmark} color="#425563" />
-                    <div className="sugerencias">Sugerencias</div>
+                    <div className="sugerencias-dd">Sugerencias</div>
                 </div>
             </div>
             <div className="frame-83" >
