@@ -21,11 +21,11 @@ const Main: React.FC = () => {
           </span>
           <span className="tab">
             <img src={market} alt="mercado" className="tab-icon" />
-            <div className="tab-text">Tipo de Mercado</div>
+            <div className="tab-text">Mercados</div>
           </span>
           <span className="tab">
             <img src={product} alt="producto" className="tab-icon" />
-            <div className="tab-text">Tipo de producto</div>
+            <div className="tab-text">Productos</div>
           </span>
           <span className="tab">
             <img src={country} alt="paises" className="tab-icon" />
@@ -46,12 +46,12 @@ const Main: React.FC = () => {
         {content.map((item, index) => (
           <div className="content">
             <div className="tab-content-filter">
-              <span>Nombre preferencia</span>
-              <span>Nombre preferencia</span>
-              <span>Nombre preferencia</span>
-              <span className='more'>Ver todos</span>
+              <span className='preference'>Nombre preferencia</span>
+              <span className='preference'>Nombre preferencia</span>
+              <span className='preference'>Nombre preferencia</span>
+              <span className='preference'>Ver todos</span>
             </div>
-            
+
             <div className="tab-content-main">
               <div className="tab-content-main-photo">
                 <img src="https://www.reuters.com/resizer/fFtLyfvK4eERH9otyTu1NTrrJAs=/960x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/QY32QEPJIRL2XFBP5ZHV6NL5SU.jpg" alt="eu" />
@@ -61,39 +61,17 @@ const Main: React.FC = () => {
                 <div className="tab-content-main-text">
                   The EU anhid New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...
                 </div>
-                <div className="tab-content-main-footer">
-                  <div className="tab-content-main-footer-filter">
-                    <span>Nombre preferencia</span>
-                  </div>
-                  <div className="tab-content-main-footer-date">Agust 21</div>
-                  <div className="tab-content-main-footer-tag">● By European Commision</div>
-                  <FontAwesomeIcon icon={faLink} className="tab-content-main-footer-share" color="#EFF4F1" />
-                  <FontAwesomeIcon icon={faBookmark} className='tab-content-main-footer-save' color="#EFF4F1" />
-                </div>
-              </div>
-            </div>
-
-            <div className="tab-content">
-              <div className="tab-content-photo">
-                <img src="https://unsplash.com/es/fotos/bandera-de-estrellas-azules-y-amarillas-8Yw6tsB8tnc" alt="eu" />
-              </div>
-              <div className="tab-content-sumary">
-                <div className="tab-content-title">EU trade relationships by country</div>
-                <div className="tab-content-text">
-                  The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...
+                <div className="tab-content-footer-filter">
+                  <span className='preference'>Nombre preferencia</span>
                 </div>
                 <div className="tab-content-footer">
-                  <div className="tab-content-footer-filter">
-                    <span>Nombre preferencia</span>
-                  </div>
                   <div className="tab-content-footer-date">Agust 21</div>
                   <div className="tab-content-footer-tag">● By European Commision</div>
-                  <FontAwesomeIcon icon={faLink} className="tab-content-footer-share" color="#EFF4F1" />
-                  <FontAwesomeIcon icon={faBookmark} className='tab-content-footer-save' color="#EFF4F1" />
+                  <FontAwesomeIcon icon={faLink} className="tab-content-footer-share" color="#D4D8DB" />
+                  <FontAwesomeIcon icon={faBookmark} className='tab-content-footer-save' color="#D4D8DB" />
                 </div>
               </div>
             </div>
-
           </div>
         ))}
       </div>
