@@ -51,7 +51,8 @@ const Main: React.FC = () => {
               <span>Nombre preferencia</span>
               <span className='more'>Ver todos</span>
             </div>
-            
+
+            ({index} === 0  && (
             <div className="tab-content-main">
               <div className="tab-content-main-photo">
                 <img src="https://www.reuters.com/resizer/fFtLyfvK4eERH9otyTu1NTrrJAs=/960x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/QY32QEPJIRL2XFBP5ZHV6NL5SU.jpg" alt="eu" />
@@ -72,6 +73,8 @@ const Main: React.FC = () => {
                 </div>
               </div>
             </div>
+            ))
+
 
             <div className="tab-content">
               <div className="tab-content-photo">
