@@ -10,39 +10,39 @@ const Header: React.FC = () => {
   const [isDropdownUserOpen, setIsDropdownUserOpen] = useState(false);
   const [isDropdownCompanyOpen, setIsDropdownCompanyOpen] = useState(false);
 
-  const dropdownRef = useRef<HTMLDivElement>(null);
+  const dropdownUserRef = useRef<HTMLDivElement>(null);
+  const dropdownCompanyRef = useRef<HTMLDivElement>(null);
 
-  const handleDropdownCompanyToggle = () => {
-    if (isDropdownCompanyOpen) {
-      setIsDropdownCompanyOpen(false);
-    } else {
-      setIsDropdownCompanyOpen(true);
-    }
-  };
-  
-  const handleDropdownUserToggle = () => {
-    if (isDropdownUserOpen) {
+  const handleClickOutside = (event: MouseEvent) => {
+    if (
+      dropdownUserRef.current &&
+      !dropdownUserRef.current.contains(event.target as Node) &&
+      dropdownCompanyRef.current &&
+      !dropdownCompanyRef.current.contains(event.target as Node)
+    ) {
       setIsDropdownUserOpen(false);
-    } else {
-      setIsDropdownUserOpen(true);
+      setIsDropdownCompanyOpen(false);
     }
   };
-
 
   useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setIsDropdownCompanyOpen(false);
-        setIsDropdownUserOpen(false);
-      }
-    };
-
     document.addEventListener("mousedown", handleClickOutside);
 
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+
+  const handleDropdownCompanyToggle = () => {
+    setIsDropdownCompanyOpen(prevState => !prevState);
+    setIsDropdownUserOpen(false); // Close the user dropdown if it's open
+  };
+
+  const handleDropdownUserToggle = () => {
+    setIsDropdownUserOpen(prevState => !prevState);
+    setIsDropdownCompanyOpen(false); // Close the company dropdown if it's open
+  };
+
 
   return (
     <header>
@@ -51,11 +51,11 @@ const Header: React.FC = () => {
           <nav className="navbar">
             <div className="frame-33">
 
-              <div className="frame-19" ref={dropdownRef} onClick={handleDropdownCompanyToggle}>
-                <FontAwesomeIcon icon={isDropdownCompanyOpen ? faCaretUp : faCaretDown} color="#FFFFFF" />
-              </div>
-              <img src={logo} alt="Logo" className="interconectar-menu" />
-
+            <div className="frame-19" ref={dropdownCompanyRef} onClick={handleDropdownCompanyToggle}>
+            <img src={logo} alt="Logo" className="interconectar-menu" />
+                <FontAwesomeIcon icon={isDropdownCompanyOpen ? faCaretUp : faCaretDown} color="#FFFFFF" />          
+            </div>
+          
               <div className="frame-20">
                 <FontAwesomeIcon icon={faHome} color="#e3efea" />
               </div>
@@ -80,7 +80,7 @@ const Header: React.FC = () => {
                   <FontAwesomeIcon icon={faDolly} color="#425563" />
                 </div>
               </div>
-              <div className="frame-30" ref={dropdownRef} onClick={handleDropdownUserToggle}>
+              <div className="frame-30" ref={dropdownUserRef} onClick={handleDropdownUserToggle}>
                 <div className="cuenta">Cuenta</div>
                 <div className="frame-22-2">
                   <FontAwesomeIcon icon={faLayerGroup} color="#425563" />

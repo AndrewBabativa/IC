@@ -81,9 +81,9 @@ const Main: React.FC = () => {
                 </div>
                 <div className="tab-content-main-footer">
                   <div className="tab-content-footer-date">Agust 21</div>
-                  <div className="tab-content-footer-tag">● By European Commision</div>
+                  <div className="tab-content-footer-tag"> ● By European Commision</div>
                   <img src={linkSolid} alt="Link Solid" className="tab-content-footer-share" />
-                  <img src={bookmark} alt="Link Solid" className="tab-content-footer-save" />
+                  <img src={bookmark} alt="Link Solid" className="tab-content-footer-save" />          
                 </div>
               </div>
             </div>
