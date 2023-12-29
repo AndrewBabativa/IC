@@ -10,15 +10,15 @@ const DropdownMenuCompany: React.FC = () => {
             <div className="frame-80">
                 <div className="frame-79">
                     <FontAwesomeIcon icon={faLayerGroup} color="#425563" />
-                    <div className="nosotros">Nosotros</div>
+                    <div className="text-btn">Nosotros</div>
                 </div>
                 <div className="frame-78">
                     <FontAwesomeIcon icon={faLayerGroup} color="#425563" />
-                    <div className="servicios">Servicios</div>
+                    <div className="text-btn">Servicios</div>
                 </div>
                 <div className="frame-81">
                     <FontAwesomeIcon icon={faBookmark} color="#425563" />
-                    <div className="sugerencias-dd">Sugerencias</div>
+                    <div className="text-btn">Sugerencias</div>
                 </div>
             </div>
             <div className="frame-83" >

@@ -7,6 +7,8 @@ import market from '../../assets/images/mercado.svg';
 import product from '../../assets/images/producto.svg';
 import country from '../../assets/images/paises.svg';
 import figures from '../../assets/images/publicaciones.svg';
+import linkSolid from '../../assets/images/link-solid.svg';
+import bookmark from '../../assets/images/bookmark-regular.svg';
 import './Main.css';
 import { faBookmark, faCircleChevronRight, faLink } from '@fortawesome/free-solid-svg-icons';
 import { News } from '../../models/news.model';
@@ -76,14 +78,38 @@ const Main: React.FC = () => {
                 <div className="tab-content-footer-filter">
                 <span className='preference-news'><a href="#" className='preference-text'>Nombre preferencia</a></span>
                 </div>
-                <div className="tab-content-footer">
+                <div className="tab-content-main-footer">
                   <div className="tab-content-footer-date">Agust 21</div>
                   <div className="tab-content-footer-tag">● By European Commision</div>
-                  <FontAwesomeIcon icon={faLink} className="tab-content-footer-share" color="#D4D8DB" />
-                  <FontAwesomeIcon icon={faBookmark} className='tab-content-footer-save' color="#D4D8DB" />
+                  <img src={linkSolid} alt="Link Solid" className="tab-content-footer-share"/>
+                  <img src={bookmark} alt="Link Solid" className="tab-content-footer-save"/>
                 </div>
               </div>
             </div>
+
+
+            <div className="tab-content-secondary">
+              <div className="tab-content-secondary-photo">
+                <img src="https://www.reuters.com/resizer/fFtLyfvK4eERH9otyTu1NTrrJAs=/960x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/QY32QEPJIRL2XFBP5ZHV6NL5SU.jpg" alt="eu" />
+              </div>
+              <div className="tab-content-secondary-sumary">
+                <div className="tab-content-main-title">EU trade relationships by country</div>
+                <div className="tab-content-main-text">
+                  The EU anhid New Zealand have today signed their free tra de agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...
+                </div>
+                <div className="tab-content-footer-filter">
+                <span className='preference-news'><a href="#" className='preference-text'>Nombre preferencia</a></span>
+                </div>
+                <div className="tab-content-footer">
+                  <div className="tab-content-footer-date">Agust 21</div>
+                  <div className="tab-content-footer-tag">● By European Commision</div>
+                  <img src={linkSolid} alt="Link Solid" className="tab-content-footer-share"/>
+                  <img src={bookmark} alt="Link Solid" className="tab-content-footer-save"/>
+                </div>
+              </div>
+            </div>
+
+
           </div>
         ))}
       </div>
