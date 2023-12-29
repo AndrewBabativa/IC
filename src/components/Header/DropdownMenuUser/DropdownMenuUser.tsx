@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './DropdownMenuUser.css';
-import { faCaretDown, faUser, faBell, faCog, faHeart, faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
+import { faCaretDown, faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
 import  perfil from '../../../assets/images/perfil.svg';
 import  preferencias  from '../../../assets/images/preferencias.svg';
 import  guardados from '../../../assets/images/guardados.svg';
