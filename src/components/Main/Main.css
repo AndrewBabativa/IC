@@ -287,6 +287,16 @@ main {
     flex-shrink: 0;
 }
 
+.tab-content-footer-share:hover {
+    border-radius: 70px;
+    background: rgba(26, 34, 40, 0.50);
+}
+
+.tab-content-footer-save:hover {
+    border-radius: 70px;
+    background: rgba(26, 34, 40, 0.50);
+}
+
 .tab-content-footer-save {
     margin-left: 1em;
     flex-shrink: 0;
@@ -416,5 +426,7 @@ main {
   
   .content-btn-news {
     display: flex;
-    justify-content: flex-end; 
+    align-items: center;
+    gap: 10px;
   }
+  

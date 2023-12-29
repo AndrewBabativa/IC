@@ -110,9 +110,11 @@ const Main: React.FC = () => {
                   <div className="tab-content-footer-date">Agust 21</div>
                   <img src={point} alt="point"/>
                   <div className="tab-content-footer-tag">By European Commision</div>
-                  <div className='content-btn-news'>
-                    <img src={linkSolid} alt="Link Solid" className="tab-content-footer-share" />
-                    <img src={bookmark} alt="Link Solid" className="tab-content-footer-save" />
+                  <div className="content-btn-news">
+                  <div className="tab-content-footer-filter">
+                      <img src={linkSolid} alt="Link Solid" className="tab-content-footer-share" />
+                    </div>
+                      <img src={bookmark} alt="bookmark" className="tab-content-footer-save" />
                   </div>
                 </div>
               </div>

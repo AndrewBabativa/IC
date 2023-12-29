@@ -141,7 +141,11 @@
     font-size: 15.19px;
     font-style: normal;
     font-weight: 600;
-    line-height: 21.266px; /* 140% */
+    line-height: 21.266px;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
 }
 
 .logout .logout-icon {
