@@ -10,7 +10,7 @@ import figures from '../../assets/images/publicaciones.svg';
 import linkSolid from '../../assets/images/link-solid.svg';
 import bookmark from '../../assets/images/bookmark-regular.svg';
 import './Main.css';
-import { faBookmark, faCircleChevronRight, faLink } from '@fortawesome/free-solid-svg-icons';
+import { faCircleChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { News } from '../../models/news.model';
 
 const Main: React.FC = () => {
