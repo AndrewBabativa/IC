@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import todo from '../../assets/images/todo.svg';
@@ -56,10 +58,10 @@ const Main: React.FC = () => {
         {content.map((item, index) => (
           <div className="content">
             <div className="tab-content-filter">
-              <span className='preference'><a className='preference-text'>Nombre preferencia</a></span>
-              <span className='preference'><a className='preference-text'>Nombre preferencia</a></span>
-              <span className='preference'><a className='preference-text'>Nombre preferencia</a></span>
-              <span className='preference'><a className='preference-text'>Ver todos</a></span>
+              <span className='preference'><a href="#" className='preference-text'>Nombre preferencia</a></span>
+              <span className='preference'><a href="#" className='preference-text'>Nombre preferencia</a></span>
+              <span className='preference'><a href="#" className='preference-text'>Nombre preferencia</a></span>
+              <span className='preference'><a href="#" className='preference-text'>Ver todos</a></span>
             </div>
 
             <div className="tab-content-main">
@@ -72,7 +74,7 @@ const Main: React.FC = () => {
                   The EU anhid New Zealand have today signed their free tra de agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...
                 </div>
                 <div className="tab-content-footer-filter">
-                <span className='preference-news'><a className='preference-text'>Nombre preferencia</a></span>
+                <span className='preference-news'><a href="#" className='preference-text'>Nombre preferencia</a></span>
                 </div>
                 <div className="tab-content-footer">
                   <div className="tab-content-footer-date">Agust 21</div>
