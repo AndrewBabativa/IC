@@ -91,7 +91,7 @@ const Main: React.FC = () => {
 
             <div className="tab-content-secondary">
               <div className="tab-content-secondary-photo">
-                <img src="https://www.reuters.com/resizer/fFtLyfvK4eERH9otyTu1NTrrJAs=/960x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/QY32QEPJIRL2XFBP5ZHV6NL5SU.jpg" alt="eu" />
+                <img src="https://p4.wallpaperbetter.com/wallpaper/932/557/215/basket-fruit-4k-full-hd-wallpaper-preview.jpg" alt="eu" />
               </div>
               <div className="tab-content-secondary-sumary">
                 <div className="tab-content-main-title">EU trade relationships by country</div>
