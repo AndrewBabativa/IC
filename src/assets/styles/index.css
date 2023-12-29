@@ -5,7 +5,7 @@ body {
   font-family: 'Raleway', 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #2f3d48;
+  background: linear-gradient(180deg, #2E3C46 0%, #425563 52.84%);
 }
 
 #root {
@@ -14,4 +14,3 @@ body {
   background: url('../images/fondo-1.svg') no-repeat center bottom;
   background-size: contain;
 }
-

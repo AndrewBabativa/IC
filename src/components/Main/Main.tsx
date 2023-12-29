@@ -50,16 +50,16 @@ const Main: React.FC = () => {
             <div className="tab-text">Otro</div>
           </span>
           <span className="tab">
-            <FontAwesomeIcon icon={faCircleChevronRight} color="#FF5C39" className="tab-icon" />
+            <FontAwesomeIcon icon={faCircleChevronRight} color="#FF5C39" className="btn-next" />
           </span>
         </div>
         {content.map((item, index) => (
           <div className="content">
             <div className="tab-content-filter">
-              <span className='preference'>Nombre preferencia</span>
-              <span className='preference'>Nombre preferencia</span>
-              <span className='preference'>Nombre preferencia</span>
-              <span className='preference'>Ver todos</span>
+              <span className='preference'><a className='preference-text'>Nombre preferencia</a></span>
+              <span className='preference'><a className='preference-text'>Nombre preferencia</a></span>
+              <span className='preference'><a className='preference-text'>Nombre preferencia</a></span>
+              <span className='preference'><a className='preference-text'>Ver todos</a></span>
             </div>
 
             <div className="tab-content-main">
@@ -72,7 +72,7 @@ const Main: React.FC = () => {
                   The EU anhid New Zealand have today signed their free tra de agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...
                 </div>
                 <div className="tab-content-footer-filter">
-                  <span className='preference'>Nombre preferencia</span>
+                <span className='preference-news'><a className='preference-text'>Nombre preferencia</a></span>
                 </div>
                 <div className="tab-content-footer">
                   <div className="tab-content-footer-date">Agust 21</div>

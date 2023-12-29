@@ -1,5 +1,5 @@
 .container-sugerencias {
-  margin-top: 3%;
+  margin-top: 36%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -105,43 +105,26 @@
   
   .sugerencia-ver-mas-boton {
     display: flex;
-    flex-direction: row;
+    padding: 10px 16px;
     justify-content: center;
     align-items: center;
-    padding: 10px 16px;
     gap: 10px;
-    
-    width: 14em;
-    height: 39px;
-    
-    /* green 500 */
-    background: #ADCAB8;
-    border-radius: 20px;
-    
-    /* Inside auto layout */
-    flex: none;
-    order: 2;
-    flex-grow: 0;
     position: absolute; /* Posición absoluta para colocar el botón en la parte inferior */
     bottom: 20px; /* Ajustar según la distancia deseada desde abajo */
     left: 50%; /* Centrar horizontalmente */
     transform: translateX(-50%); /* Centrar horizontalmente */
+    border-radius: 20px;
+background: var(--green-500, #ADCAB8);
     
   }
 
   .sugerencia-ver-mas-texto {
-    width: 123px;
-    height: 19px;
-    
-    font-family: 'Barlow';
+    color: var(--gray-900, #1A2228);
+    font-family: Barlow;
+    font-size: 13.5px;
     font-style: normal;
     font-weight: 600;
-    font-size: 13.5px;
-    line-height: 19px;
-    /* identical to box height, or 140% */
-    
-    /* gray 900 */
-    color: #1A2228;
+    line-height: 18.9px; /* 140% */
     
   }
 
