@@ -9,7 +9,7 @@
     height: 332px;
     left: 248px;
     top: 90px;
-    background: #425563;
+    background-color: #2E3c46;
     box-shadow: 0px 8px 40px rgba(26, 34, 40, 0.24);
     border-radius: 12px;
     z-index: 10;
@@ -25,7 +25,7 @@
     align-self: stretch;
     flex-wrap: wrap;
     border-bottom: 1px solid var(--gray-700, #425563);
-    background-color: gray 700;
+    background-color: #2E3c46;
 }
 
 /* Frame 79 */
@@ -73,7 +73,7 @@
     gap: 8px;
     flex: 1 0 0;
     border-radius: 8px;
-    background: #8BA293;
+    background: var(--gray-700, #425563);
 }
 
 
@@ -86,6 +86,7 @@
     gap: 12px;
     width: 320px;
     height: 72px;
+    background-color: #2E3c46;
 }
 
 /* Frame 98 */

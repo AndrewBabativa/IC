@@ -1,4 +1,4 @@
-import React, {  } from 'react';
+import React, { } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Sugerencias.css';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -24,9 +24,9 @@ const Sugerencias: React.FC = () => {
           </div>
         </div>
         <div className="sugerencia-ver-mas-boton">
-        <div className="sugerencia-ver-mas-texto">Ver más sugerencias</div>
-        <FontAwesomeIcon icon={faArrowRight} color="black" />
-      </div>
+          <div className="sugerencia-ver-mas-texto">Ver más sugerencias</div>
+          <FontAwesomeIcon icon={faArrowRight} color="black" />
+        </div>
       </div>
     </div>
   );

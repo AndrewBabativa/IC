@@ -5,8 +5,8 @@ const Banner: React.FC = () => {
     return (
         <section className='group-65'>
             <div className="expand-horizons">
-                <p>Expandir tus horizotes</p>
-                <p>comerciales nunca fue tan fácil.</p>
+                Expandir tus horizontes
+                comerciales nunca fue tan fácil.
             </div>
             <div className="banner">
             </div>

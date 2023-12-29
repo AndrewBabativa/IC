@@ -5,9 +5,9 @@
     position: absolute;
     width: 320px;
     height: 462px;
-    left: 61.5%;
+    left: 66.5%;
     top: 90px;
-    background: #425563;
+    background-color: #2E3c46;
     box-shadow: 0px 8px 40px rgba(26, 34, 40, 0.24);
     border-radius: 12px;
     z-index: 10;
@@ -90,7 +90,7 @@
     height: 102px;
     background: #CEDFD5;
     border-radius: 8px;
-    color: #425563;
+    background: var(--gray-700, #425563);
 }
 
 .option .icon {
@@ -146,4 +146,13 @@
     width: 14px;
     height: 14px;
     background: #FFCABF;
+}
+
+.text{
+    color: var(--green-200, #DFEAE3);
+    font-family: Barlow;
+    font-size: 15.19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21.266px; /* 140% */
 }

@@ -13,13 +13,22 @@ const Header: React.FC = () => {
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const handleDropdownCompanyToggle = () => {
-    setIsDropdownCompanyOpen((prevState) => !prevState);
+    if (isDropdownCompanyOpen) {
+      setIsDropdownCompanyOpen(false);
+    } else {
+      setIsDropdownCompanyOpen(true);
+    }
   };
   
   const handleDropdownUserToggle = () => {
-    setIsDropdownUserOpen((prevState) => !prevState);
+    if (isDropdownUserOpen) {
+      setIsDropdownUserOpen(false);
+    } else {
+      setIsDropdownUserOpen(true);
+    }
   };
-  
+
+
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
@@ -27,10 +36,11 @@ const Header: React.FC = () => {
         setIsDropdownUserOpen(false);
       }
     };
-  
-    document.addEventListener('mousedown', handleClickOutside);
+
+    document.addEventListener("mousedown", handleClickOutside);
+
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
 

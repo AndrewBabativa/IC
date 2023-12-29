@@ -97,6 +97,7 @@ main {
     background-color: #2E3C46;
     border-radius: 8px;
 }
+
 .tab-content-secondary {
     display: flex;
     align-items: center;
@@ -105,8 +106,8 @@ main {
     max-width: 100%;
     background-color: #2E3C46;
     border-radius: 8px;
-    margin-top:1.5em;
-    margin-bottom:1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 .tab-content-secondary-photo {
@@ -114,7 +115,7 @@ main {
     margin-left: 1em;
 }
 
-.tab-content-secondary-photo img{
+.tab-content-secondary-photo img {
     width: 100%;
     border-radius: 5%;
     object-fit: cover;
@@ -128,7 +129,7 @@ main {
 
 .tab-content-main-photo,
 .tab-content-photo {
-   
+
     align-self: stretch;
     margin-left: 1em;
 }
@@ -228,12 +229,15 @@ main {
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
-    line-height: 16.8px; /* 140% */
+    line-height: 16.8px;
+    /* 140% */
 }
 
 .tab-content-footer-share {
     margin-left: auto;
     flex-shrink: 0;
+    border-radius: 20px;
+    background-color: rgba(26, 34, 40, 0.50);
 }
 
 .tab-content-footer-share img {
@@ -278,19 +282,34 @@ main {
     text-decoration: none;
 }
 
+.ver-todos-text {
+    font-family: Barlow;
+    font-size: 15.19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21.266px;
+    text-decoration: none;
+}
+
 .btn-next {
     width: 20px;
     height: 20px;
     flex-shrink: 0;
+    color: #FF5C39;
 }
 
-.tab-content-footer-tag{
+.btn-next:hover {
+    color: #FF8166;
+}
+
+.tab-content-footer-tag {
     color: var(--green-500, #ADCAB8);
-font-family: Barlow;
-font-size: 12px;
-font-style: normal;
-font-weight: 500;
-line-height: 16.8px; /* 140% */
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.8px;
+    /* 140% */
 }
 
 @media (min-width: 768px) {
@@ -307,3 +326,39 @@ line-height: 16.8px; /* 140% */
     }
 }
 
+.container-btn {
+    position: relative;
+    padding-bottom: 60px;
+  }
+
+.noticias-ver-mas-boton {
+    margin-top: 5em;
+    display: flex;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    background: var(--green-500, #ADCAB8);
+    cursor: pointer;
+  }
+
+  .noticias-ver-mas-boton:hover {
+    border-radius: 20px;
+    background: var(--green-400, #BED5C6);
+    cursor: pointer;
+  }
+  
+  .noticias-ver-mas-texto {
+    color: var(--gray-900, #1A2228);
+    font-family: Barlow;
+    font-size: 13.5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18.9px;
+  }
+  

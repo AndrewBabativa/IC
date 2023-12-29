@@ -13,6 +13,15 @@ footer div {
     height: 7vh;
 }
 
+span {
+    color: var(--gray-200, #D4D8DB);
+font-family: Barlow;
+font-size: 15.19px;
+font-style: normal;
+font-weight: 600;
+line-height: 21.266px; /* 140% */
+}
+
 footer div > span, footer div > svg {
     cursor: pointer;
     margin: 0 1%;

@@ -12,6 +12,7 @@ import bookmark from '../../assets/images/bookmark-regular.svg';
 import './Main.css';
 import { faCircleChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { News } from '../../models/news.model';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Main: React.FC = () => {
   let news: News[] = [{
@@ -21,7 +22,7 @@ const Main: React.FC = () => {
     sumary: 'The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...',
     date: 'August 21',
     source: 'By European Commision',
-}];
+  }];
 
   const [content] = useState(news);
 
@@ -54,7 +55,7 @@ const Main: React.FC = () => {
             <div className="tab-text">Otro</div>
           </span>
           <span className="tab">
-            <FontAwesomeIcon icon={faCircleChevronRight} color="#FF5C39" className="btn-next" />
+            <FontAwesomeIcon icon={faCircleChevronRight} className="btn-next" />
           </span>
         </div>
         {content.map((item, index) => (
@@ -63,7 +64,7 @@ const Main: React.FC = () => {
               <span className='preference'><a href="#" className='preference-text'>Nombre preferencia</a></span>
               <span className='preference'><a href="#" className='preference-text'>Nombre preferencia</a></span>
               <span className='preference'><a href="#" className='preference-text'>Nombre preferencia</a></span>
-              <span className='preference'><a href="#" className='preference-text'>Ver todos</a></span>
+              <span><a href="#" className='ver-todos-text'>Ver todos</a></span>
             </div>
 
             <div className="tab-content-main">
@@ -76,13 +77,13 @@ const Main: React.FC = () => {
                   The EU anhid New Zealand have today signed their free tra de agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...
                 </div>
                 <div className="tab-content-footer-filter">
-                <span className='preference-news'><a href="#" className='preference-text'>Nombre preferencia</a></span>
+                  <span className='preference-news'><a href="#" className='preference-text'>Nombre preferencia</a></span>
                 </div>
                 <div className="tab-content-main-footer">
                   <div className="tab-content-footer-date">Agust 21</div>
                   <div className="tab-content-footer-tag">● By European Commision</div>
-                  <img src={linkSolid} alt="Link Solid" className="tab-content-footer-share"/>
-                  <img src={bookmark} alt="Link Solid" className="tab-content-footer-save"/>
+                  <img src={linkSolid} alt="Link Solid" className="tab-content-footer-share" />
+                  <img src={bookmark} alt="Link Solid" className="tab-content-footer-save" />
                 </div>
               </div>
             </div>
@@ -98,18 +99,22 @@ const Main: React.FC = () => {
                   The EU anhid New Zealand have today signed their free tra de agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...
                 </div>
                 <div className="tab-content-footer-filter">
-                <span className='preference-news'><a href="#" className='preference-text'>Nombre preferencia</a></span>
+                  <span className='preference-news'><a href="#" className='preference-text'>Nombre preferencia</a></span>
                 </div>
                 <div className="tab-content-footer">
                   <div className="tab-content-footer-date">Agust 21</div>
                   <div className="tab-content-footer-tag">● By European Commision</div>
-                  <img src={linkSolid} alt="Link Solid" className="tab-content-footer-share"/>
-                  <img src={bookmark} alt="Link Solid" className="tab-content-footer-save"/>
+                  <img src={linkSolid} alt="Link Solid" className="tab-content-footer-share" />
+                  <img src={bookmark} alt="Link Solid" className="tab-content-footer-save" />
                 </div>
               </div>
             </div>
-
-
+            <div className='container-btn'>
+              <div className="noticias-ver-mas-boton">
+                <div className="noticias-ver-mas-texto">Ver más noticias</div>
+                <FontAwesomeIcon icon={faArrowRight} color="black" />
+              </div>
+            </div>
           </div>
         ))}
       </div>

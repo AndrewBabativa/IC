@@ -90,15 +90,17 @@
   align-items: center;
   gap: 10px;
   position: absolute;
-  /* Posición absoluta para colocar el botón en la parte inferior */
   bottom: 20px;
-  /* Ajustar según la distancia deseada desde abajo */
   left: 50%;
-  /* Centrar horizontalmente */
   transform: translateX(-50%);
-  /* Centrar horizontalmente */
   border-radius: 20px;
   background: var(--green-500, #ADCAB8);
+  cursor: pointer;
+}
+
+.sugerencia-ver-mas-boton:hover {
+  border-radius: 20px;
+  background: var(--green-400, #BED5C6);
   cursor: pointer;
 }
 
@@ -109,8 +111,6 @@
   font-style: normal;
   font-weight: 600;
   line-height: 18.9px;
-  /* 140% */
-
 }
 
 .Frame71 {

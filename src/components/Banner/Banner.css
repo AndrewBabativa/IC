@@ -10,21 +10,17 @@
 }
 
 .expand-horizons {
-    width: 590px;
-    height: 97px;
-    font-family: 'Raleway';
+    color: var(--orange-100, #FFEFEB);
+    font-family: Raleway;
+    font-size: 34.639px;
     font-style: normal;
     font-weight: 700;
-    font-size: 34.6387px;
-    line-height: 48px;
-    /* or 140% */
-    color: #FFEFEB;
-    /* orange 100 */
-
+    line-height: 48.496px; /* 140.005% */
 }
 
 .banner {
     width: 328px;
     height: 146px;
+    flex-shrink: 0;
     background: url('../../assets/images/world.svg');
 }
