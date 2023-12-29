@@ -14,3 +14,26 @@ body {
   background: url('../images/fondo-1.svg') no-repeat center bottom;
   background-size: contain;
 }
+
+.container-news-sgg {
+  display: flex;
+  justify-content: center;
+}
+
+.content-news-sgg {
+  display: flex;
+  max-width: auto; 
+  margin-top: 1em;
+}
+
+.main {
+  flex-grow: 1; 
+  flex-basis: auto; 
+  width: 48em;
+}
+
+.suggestions {
+  flex-shrink: 0; 
+  flex-basis: auto; 
+  width: auto;
+}

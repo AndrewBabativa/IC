@@ -11,15 +11,16 @@ function App() {
       <Header />
       <Banner />
       <Aside />
-      <div className='row'>
-        <div className='offset-md-2 col-md-5'>
-          <Main />
-        </div>
-        <div className='col-md-1'>
-          <Sugerencias />
+      <div className="container-news-sgg">
+        <div className="content-news-sgg ">
+          <div className="main">
+            <Main />
+          </div>
+          <div className="suggestions">
+            <Sugerencias />
+          </div>
         </div>
       </div>
-
       <Footer />
     </>
   );

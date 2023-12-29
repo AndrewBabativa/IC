@@ -1,144 +1,136 @@
 .container-sugerencias {
-  margin-top: 36%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   filter: drop-shadow(0px 4px 24px rgba(26, 34, 40, 0.2));
-  width: 43%;
-  max-width: 100%;
+  width: 27em;
   background-color: #2E3C46;
   border-radius: 12px;
   box-sizing: border-box;
 }
 
 .Frame70 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px 20px 24px;
-    width: 447px;
-    max-width: 447px;
-    background: #2E3C46; /* gray 800 */
-    border-radius: 12px;
-    flex: none;
-    order: 1;
-    flex-grow: 1;
-    position: relative;
-    min-height: 32em;
-    height: auto; 
-  }
-  
-  /* Frame 73 */
-  .Frame73 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 24px 0px;
-    gap: 10px;
-    width: 407px;
-    height: 67px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-  
-  .sugerencias {
-    width: 407px;
-    height: 19px;
-    font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13.5px;
-    line-height: 19px;
-    text-transform: uppercase;
-    color: #CEDFD5; /* green 300 */
-    flex: none;
-    order: 0;
-    flex-grow: 1;
-  }
+  display: flex;
+  max-width: 447px;
+  padding: 0px 20px 24px 20px;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 0;
+  flex-grow: 1;
+  position: relative;
+  min-height: 32em;
+  height: auto;
+}
 
-  .sugerencias-texto {
-    width: 407px;
-    height: 38px;
-    
-    font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13.5px;
-    line-height: 19px;
-    color: #D4D8DB;  
-  }
-  
+/* Frame 73 */
+.sugerencias-title-container {
+  display: flex;
+  padding: 24px 0px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
 
-  .sugerencias-titulo {
-    width: 407px;
-    height: 22px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15.19px;
-    line-height: 21px;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-    
-  }
+.sugerencias {
+  width: 407px;
+  height: 19px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13.5px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #CEDFD5;
+  /* green 300 */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
 
-  .sugerencia-fecha {
-    width: 44px;
-    height: 17px;
-    font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 17px;
-    color: #ADCAB8;
-    position: absolute; 
-    left: 0;
-    margin-left: 1.7em;
-    margin-bottom: 1em;
-  }
-  
-  .sugerencia-ver-mas-boton {
-    display: flex;
-    padding: 10px 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    position: absolute; /* Posición absoluta para colocar el botón en la parte inferior */
-    bottom: 20px; /* Ajustar según la distancia deseada desde abajo */
-    left: 50%; /* Centrar horizontalmente */
-    transform: translateX(-50%); /* Centrar horizontalmente */
-    border-radius: 20px;
-    background: var(--green-500, #ADCAB8);
-    cursor: pointer;
-  }
-
-  .sugerencia-ver-mas-texto {
-    color: var(--gray-900, #1A2228);
-    font-family: Barlow;
-    font-size: 13.5px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 18.9px; /* 140% */
-    
-  }
-
-  .Frame71 {
-    width: 100%; /* Ajustar el ancho para que ocupe todo el contenedor */
-    /* Resto de estilos... */
-  }
-  
-  .Frame60 {
-    width: 100%; /* Ajustar el ancho para que ocupe todo el contenedor */
-    /* Resto de estilos... */
-  }
+.sugerencias-texto {
+  color: var(--gray-200, #D4D8DB);
+  font-family: Barlow;
+  font-size: 13.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.9px; /* 140% */
+}
 
 
+.sugerencias-texto-titulo {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 15.19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21.266px; /* 140% */
 
+}
 
-  
+.sugerencia-fecha {
+  width: 44px;
+  height: 17px;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #ADCAB8;
+  position: absolute;
+  left: 0;
+  margin-left: 1.7em;
+  margin-bottom: 1em;
+}
+
+.sugerencia-ver-mas-boton {
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  /* Posición absoluta para colocar el botón en la parte inferior */
+  bottom: 20px;
+  /* Ajustar según la distancia deseada desde abajo */
+  left: 50%;
+  /* Centrar horizontalmente */
+  transform: translateX(-50%);
+  /* Centrar horizontalmente */
+  border-radius: 20px;
+  background: var(--green-500, #ADCAB8);
+  cursor: pointer;
+}
+
+.sugerencia-ver-mas-texto {
+  color: var(--gray-900, #1A2228);
+  font-family: Barlow;
+  font-size: 13.5px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18.9px;
+  /* 140% */
+
+}
+
+.Frame71 {
+  width: 100%;
+  /* Ajustar el ancho para que ocupe todo el contenedor */
+  /* Resto de estilos... */
+}
+
+.Frame60 {
+  width: 100%;
+  /* Ajustar el ancho para que ocupe todo el contenedor */
+  /* Resto de estilos... */
+}
+
+.sugerencias-title {
+  color: var(--green-300, #CEDFD5);
+  font-family: Barlow;
+  font-size: 13.5px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18.9px; /* 140% */
+  text-transform: uppercase;
+}
