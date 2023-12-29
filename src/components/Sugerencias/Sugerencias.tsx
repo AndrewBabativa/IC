@@ -2,6 +2,7 @@ import React, { } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Sugerencias.css';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import bookmark from '../../assets/images/bookmark-regular.svg';
 
 const Sugerencias: React.FC = () => {
   return (
@@ -13,14 +14,14 @@ const Sugerencias: React.FC = () => {
         <div className="Frame71">
           <div className="sugerencias-texto-titulo">EU trade relationships by country</div>
           <div className="sugerencias-texto">
-            The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver significant gains for the EU.
+            The EU and New Zealand have today signed their free trade agreement (FTA), which will deliver will deliver will deliv sign...
           </div>
           {/* ... Otros elementos dentro de Frame71 */}
         </div>
-        <div className="Frame60">
-          <div className="sugerencia-fecha">
-            <div className="Agust21">Agust 21</div>
-            {/* ... Otros elementos dentro de Frame61 */}
+        <div className="sug-content-footer">
+          <div className="tab-content-footer-date">Agust 21</div>
+          <div className='content-btn-news'>
+            <img src={bookmark} alt="Link Solid" className="tab-content-footer-save" />
           </div>
         </div>
         <div className="sugerencia-ver-mas-boton">

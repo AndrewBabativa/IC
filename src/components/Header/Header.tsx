@@ -1,5 +1,6 @@
 import React, { FC,useEffect, useRef, useState } from "react";
 import logo from "../../assets/images/logo.svg";
+import preferencias_menu from "../../assets/images/preferencias-menu.svg";
 import "./Header.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faMagnifyingGlass, faLayerGroup, faBookmark, faRoute, faDolly, faListCheck, faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons';
@@ -68,19 +69,20 @@ const Header: FC = () => {
                   <FontAwesomeIcon icon={faDolly} color="#425563" />
                 </div>
                 <div className="frame-22">
-                  <FontAwesomeIcon icon={faRoute} color="#425563" />
+                <FontAwesomeIcon icon={faDolly} color="#425563" />
+                
                 </div>
                 <div className="frame-23">
-                  <FontAwesomeIcon icon={faListCheck} color="#425563" />
+                <FontAwesomeIcon icon={faListCheck} color="#425563" />               
                 </div>
                 <div className="frame-22">
-                  <FontAwesomeIcon icon={faDolly} color="#425563" />
+                <FontAwesomeIcon icon={faRoute} color="#425563" />          
                 </div>
               </div>
               <div className="frame-30" ref={dropdownUserRef} onClick={handleDropdownUserToggle}>
                 <div className="cuenta">Cuenta</div>
                 <div className="frame-22-2">
-                  <FontAwesomeIcon icon={faLayerGroup} color="#425563" />
+                <img src={preferencias_menu} alt="preferencias_menu" />
                 </div>
                 <div className="frame-23-2">
                   <FontAwesomeIcon icon={faBookmark} color="#425563" />

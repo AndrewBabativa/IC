@@ -168,6 +168,11 @@ aside {
     cursor: pointer;
 }
 
+.btn-ver:hover {
+    border-radius: 21px;
+    background: var(--gray-900, #1A2228);
+}
+
 .txt-ver{
     color: var(--gray-100, #ECEEEF);
     font-family: Barlow;

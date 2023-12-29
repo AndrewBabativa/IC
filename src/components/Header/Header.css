@@ -107,10 +107,19 @@ header {
     font-weight: 500;
     font-size: 15.19px;
     line-height: 21px;
-    color: #D4D8DB;
+    color: var(--gray-200, #D4D8DB);
     flex: none;
     order: 0;
     flex-grow: 1;
+}
+
+.buscar-noticia::placeholder {
+    color: var(--gray-200, #D4D8DB);
+    font-family: Barlow;
+    font-size: 15.19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21.266px; /* 140% */
 }
 
 /* Frame 21 */

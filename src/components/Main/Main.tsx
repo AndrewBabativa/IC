@@ -3,12 +3,13 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import todo from '../../assets/images/todo.svg';
-import market from '../../assets/images/mercado.svg';
-import product from '../../assets/images/producto.svg';
+import market from '../../assets/images/market.svg';
+import product from '../../assets/images/shoping.svg';
 import country from '../../assets/images/paises.svg';
 import figures from '../../assets/images/publicaciones.svg';
 import linkSolid from '../../assets/images/link-solid.svg';
 import bookmark from '../../assets/images/bookmark-regular.svg';
+import point from '../../assets/images/point.svg';
 import './Main.css';
 import { faCircleChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { News } from '../../models/news.model';
@@ -54,7 +55,7 @@ const Main: React.FC = () => {
             <img src={market} alt="otro" className="tab-icon" />
             <div className="tab-text">Otro</div>
           </span>
-          <span className="tab">
+          <span className="tab-next">
             <FontAwesomeIcon icon={faCircleChevronRight} className="btn-next" />
           </span>
         </div>
@@ -78,6 +79,7 @@ const Main: React.FC = () => {
                 </div>
                 <div className="tab-content-main-footer">
                   <div className="tab-content-footer-date">Agust 21</div>
+                  <img src={point} alt="point"/>
                   <div className="tab-content-footer-tag"> By European Commision</div>
                   <div className='content-btn-news'>
                     <img src={linkSolid} alt="Link Solid" className="tab-content-footer-share" />
@@ -106,6 +108,7 @@ const Main: React.FC = () => {
                     <span className='preference-news'><a href="#" className='preference-text'>Nombre preferencia</a></span>
                   </div>
                   <div className="tab-content-footer-date">Agust 21</div>
+                  <img src={point} alt="point"/>
                   <div className="tab-content-footer-tag">By European Commision</div>
                   <div className='content-btn-news'>
                     <img src={linkSolid} alt="Link Solid" className="tab-content-footer-share" />

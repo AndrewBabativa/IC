@@ -4,7 +4,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   filter: drop-shadow(0px 4px 24px rgba(26, 34, 40, 0.2));
-  width: 27em;
+  width: 26.5em;
   background-color: #2E3C46;
   border-radius: 12px;
   box-sizing: border-box;
@@ -54,7 +54,9 @@
   font-size: 13.5px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18.9px; /* 140% */
+  line-height: 18.9px;
+  margin-right: 2em;
+  margin-top: 0.5em;
 }
 
 
@@ -133,4 +135,21 @@
   font-weight: 600;
   line-height: 18.9px; /* 140% */
   text-transform: uppercase;
+}
+
+.sug-content-footer{
+  display: flex;
+  align-items: center;
+  gap: 19.5em;
+  align-self: stretch;
+  margin-top: 1em;
+}
+
+.sug-tab-content-footer-date{
+  color: var(--green-500, #ADCAB8);
+  font-family: Barlow;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16.8px; /* 140% */
 }
