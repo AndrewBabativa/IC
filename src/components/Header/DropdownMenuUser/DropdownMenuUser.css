@@ -136,10 +136,12 @@
 }
 
 .logout {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: #FFCABF;
+    color: var(--orange-200, #FFCABF);
+    font-family: Barlow;
+    font-size: 15.19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21.266px; /* 140% */
 }
 
 .logout .logout-icon {

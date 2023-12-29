@@ -1,6 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './DropdownMenuUser.css';
 import { faCaretDown, faUser, faBell, faCog, faHeart, faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
+import  perfil from '../../../assets/images/perfil.svg';
+import  preferencias  from '../../../assets/images/preferencias.svg';
+import  guardados from '../../../assets/images/guardados.svg';
+import  notificaciones from '../../../assets/images/notificaciones.svg';
 
 const DropdownMenuUser: React.FC = () => {
     return (
@@ -14,7 +18,7 @@ const DropdownMenuUser: React.FC = () => {
                     </div>
                     <div className="language-icon">
                         <img src="https://cdn-icons-png.flaticon.com/512/197/197593.png" alt="ES" />
-                        <FontAwesomeIcon icon={faCaretDown} />
+                        <FontAwesomeIcon icon={faCaretDown} color='white' />
                     </div>
                 </div>
                 <div className='user-info'>
@@ -29,25 +33,25 @@ const DropdownMenuUser: React.FC = () => {
             <div className="options">
                 <div className="option">
                     <div className="icon-inner">
-                        <FontAwesomeIcon icon={faUser} />
+                    <img src={perfil} alt="Link Solid" className="tab-content-footer-share" />
                     </div>
                     <div className="text">Cuenta</div>
                 </div>
                 <div className="option">
                     <div className="icon-inner">
-                        <FontAwesomeIcon icon={faCog} />
+                    <img src={preferencias} alt="Link Solid" className="tab-content-footer-share" />
                     </div>
                     <div className="text">Preferencias</div>
                 </div>
                 <div className="option">
                     <div className="icon-inner">
-                        <FontAwesomeIcon icon={faHeart} />
+                    <img src={guardados} alt="Link Solid" className="tab-content-footer-share" />
                     </div>
                     <div className="text">Guardados</div>
                 </div>
                 <div className="option">
                     <div className="icon-inner">
-                        <FontAwesomeIcon icon={faBell} />
+                    <img src={notificaciones} alt="Link Solid" className="tab-content-footer-share" />
                     </div>
                     <div className="text">Notificaciones</div>
                 </div>

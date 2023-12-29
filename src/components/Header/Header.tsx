@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { FC,useEffect, useRef, useState } from "react";
 import logo from "../../assets/images/logo.svg";
 import "./Header.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -6,10 +6,9 @@ import { faHome, faMagnifyingGlass, faLayerGroup, faBookmark, faRoute, faDolly, 
 import DropdownMenuUser from './DropdownMenuUser/DropdownMenuUser';
 import DropdownMenuCompany from "./DropdownMenuCompany/DropdownMenuCompany";
 
-const Header: React.FC = () => {
+const Header: FC = () => {
   const [isDropdownUserOpen, setIsDropdownUserOpen] = useState(false);
   const [isDropdownCompanyOpen, setIsDropdownCompanyOpen] = useState(false);
-
   const dropdownUserRef = useRef<HTMLDivElement>(null);
   const dropdownCompanyRef = useRef<HTMLDivElement>(null);
 
@@ -27,22 +26,20 @@ const Header: React.FC = () => {
 
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);
-
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
 
   const handleDropdownCompanyToggle = () => {
-    setIsDropdownCompanyOpen(prevState => !prevState);
-    setIsDropdownUserOpen(false); // Close the user dropdown if it's open
+    setIsDropdownCompanyOpen((prevState) => !prevState);
+    setIsDropdownUserOpen(false); 
   };
 
   const handleDropdownUserToggle = () => {
-    setIsDropdownUserOpen(prevState => !prevState);
-    setIsDropdownCompanyOpen(false); // Close the company dropdown if it's open
+    setIsDropdownUserOpen((prevState) => !prevState);
+    setIsDropdownCompanyOpen(false); 
   };
-
 
   return (
     <header>
@@ -52,10 +49,10 @@ const Header: React.FC = () => {
             <div className="frame-33">
 
             <div className="frame-19" ref={dropdownCompanyRef} onClick={handleDropdownCompanyToggle}>
-            <img src={logo} alt="Logo" className="interconectar-menu" />
-                <FontAwesomeIcon icon={isDropdownCompanyOpen ? faCaretUp : faCaretDown} color="#FFFFFF" />          
+              <img src={logo} alt="Logo" className="interconectar-menu" />
+              <FontAwesomeIcon icon={isDropdownCompanyOpen ? faCaretUp : faCaretDown} color="#FFFFFF" />
             </div>
-          
+
               <div className="frame-20">
                 <FontAwesomeIcon icon={faHome} color="#e3efea" />
               </div>

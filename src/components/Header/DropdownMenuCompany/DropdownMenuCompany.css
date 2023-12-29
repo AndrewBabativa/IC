@@ -15,30 +15,30 @@
     z-index: 10;
 }
 
-/* Frame 80 */
 .frame-80 {
     display: flex;
     padding: 20px;
-    align-items: flex-start;
-    align-content: flex-start;
+    align-items: center; /* Centra verticalmente los elementos */
     gap: 16px;
     align-self: stretch;
     flex-wrap: wrap;
     border-bottom: 1px solid var(--gray-700, #425563);
     background-color: #2E3c46;
-}
-
-/* Frame 79 */
-.frame-79 {
-    display: flex;
-    min-width: 120px;
-    padding: 24px 19px;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    flex: 1 0 0;
-    border-radius: 8px;
-    background: var(--gray-700, #425563);
+  }
+  
+.frame-79,
+.frame-78,
+.frame-81 {
+  display: flex;
+  min-width: 120px;
+  padding: 24px 19px;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente los elementos */
+  justify-content: center; /* Centra verticalmente los elementos */
+  gap: 8px;
+  flex: 1 0 0;
+  border-radius: 8px;
+  background: var(--gray-700, #425563);
 }
 
 .text-btn {
@@ -50,32 +50,11 @@
     line-height: 21.266px; /* 140% */
 }
 
-/* Frame 78 */
-.frame-78 {
-    display: flex;
-    min-width: 120px;
-    padding: 24px 19px;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    flex: 1 0 0;
-    border-radius: 8px;
-    background: var(--gray-700, #425563);
-}
-
-
-.frame-81 {
-    display: flex;
-    min-width: 120px;
-    padding: 24px 19px;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    flex: 1 0 0;
-    border-radius: 8px;
-    background: var(--gray-700, #425563);
-}
-
+  .tab-content-footer-share {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto; /* Centrar horizontalmente la imagen */
+  }
 
 /* Frame 83 */
 .frame-83 {

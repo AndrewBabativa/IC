@@ -76,14 +76,16 @@ const Main: React.FC = () => {
                 <div className="tab-content-main-text">
                   The EU anhid New Zealand have today signed their free tra de agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...
                 </div>
-                <div className="tab-content-footer-filter">
-                  <span className='preference-news'><a href="#" className='preference-text'>Nombre preferencia</a></span>
-                </div>
                 <div className="tab-content-main-footer">
                   <div className="tab-content-footer-date">Agust 21</div>
-                  <div className="tab-content-footer-tag"> ● By European Commision</div>
-                  <img src={linkSolid} alt="Link Solid" className="tab-content-footer-share" />
-                  <img src={bookmark} alt="Link Solid" className="tab-content-footer-save" />          
+                  <div className="tab-content-footer-tag"> By European Commision</div>
+                  <div className='content-btn-news'>
+                    <img src={linkSolid} alt="Link Solid" className="tab-content-footer-share" />
+                    <img src={bookmark} alt="Link Solid" className="tab-content-footer-save" />
+                  </div>
+                </div>
+                <div className="tab-content-footer-filter">
+                  <span className='preference-news'><a href="#" className='preference-text'>Nombre preferencia</a></span>
                 </div>
               </div>
             </div>
@@ -98,14 +100,17 @@ const Main: React.FC = () => {
                 <div className="tab-content-main-text">
                   The EU anhid New Zealand have today signed their free tra de agreement (FTA), which will deliver significant gains for the EU. The deal will cut some €140 million a year in duties for EU companies from the first year of application. The...
                 </div>
-                <div className="tab-content-footer-filter">
-                  <span className='preference-news'><a href="#" className='preference-text'>Nombre preferencia</a></span>
-                </div>
+
                 <div className="tab-content-footer">
+                  <div className="tab-content-footer-filter">
+                    <span className='preference-news'><a href="#" className='preference-text'>Nombre preferencia</a></span>
+                  </div>
                   <div className="tab-content-footer-date">Agust 21</div>
-                  <div className="tab-content-footer-tag">● By European Commision</div>
-                  <img src={linkSolid} alt="Link Solid" className="tab-content-footer-share" />
-                  <img src={bookmark} alt="Link Solid" className="tab-content-footer-save" />
+                  <div className="tab-content-footer-tag">By European Commision</div>
+                  <div className='content-btn-news'>
+                    <img src={linkSolid} alt="Link Solid" className="tab-content-footer-share" />
+                    <img src={bookmark} alt="Link Solid" className="tab-content-footer-save" />
+                  </div>
                 </div>
               </div>
             </div>
