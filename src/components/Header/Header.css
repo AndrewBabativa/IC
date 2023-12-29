@@ -133,9 +133,9 @@ header {
     flex-direction: row;
     align-items: center;
     padding: 8px 8px 8px 16px;
-    gap: 0.2em;
-    width: 285px;
-    height: 56px;
+    gap: 0.4em;
+    width: auto;
+    height: auto;
     background: #425563;
     box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.08);
     border-radius: 50px;
@@ -200,9 +200,9 @@ header {
     flex-direction: row;
     align-items: center;
     padding: 4px 4px 4px 16px;
-    gap: 12px;
-    width: 258px;
-    height: 56px;
+    gap: 0.4em;;
+    width: auto;
+    height: auto;
     background: #425563;
     box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.08);
     border-radius: 50px;
@@ -264,17 +264,11 @@ header {
 /* Frame 32 */
 .frame-32 {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 8px;
-    gap: 12px;
-    width: 73px;
-    height: 48px;
-    background: #FF5C39;
+    align-items: center;
+    gap: 8px;
     border-radius: 24px;
-    flex: none;
-    order: 3;
-    flex-grow: 0;
+    background: var(--orange-500, #FF5C39);
 }
 
 /* Frame 31 */
