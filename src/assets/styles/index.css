@@ -18,6 +18,7 @@ body {
 .container-news-sgg {
   display: flex;
   justify-content: center;
+  margin-top: 1em;
 }
 
 .content-news-sgg {
@@ -29,11 +30,12 @@ body {
 .main {
   flex-grow: 1; 
   flex-basis: auto; 
-  width: 48em;
+  width: 46.5625em;
+  margin-right: 1.2em;
 }
 
 .suggestions {
   flex-shrink: 0; 
   flex-basis: auto; 
-  width: auto;
+  width: 25.4375em;
 }
