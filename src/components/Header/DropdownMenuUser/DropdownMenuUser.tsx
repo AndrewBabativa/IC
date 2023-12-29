@@ -33,25 +33,25 @@ const DropdownMenuUser: React.FC = () => {
             <div className="options">
                 <div className="option">
                     <div className="icon-inner">
-                    <img src={perfil} alt="Link Solid" className="tab-content-footer-share" />
+                    <img src={perfil} alt="Link Solid" />
                     </div>
                     <div className="text">Cuenta</div>
                 </div>
                 <div className="option">
                     <div className="icon-inner">
-                    <img src={preferencias} alt="Link Solid" className="tab-content-footer-share" />
+                    <img src={preferencias} alt="Link Solid" />
                     </div>
                     <div className="text">Preferencias</div>
                 </div>
                 <div className="option">
                     <div className="icon-inner">
-                    <img src={guardados} alt="Link Solid" className="tab-content-footer-share" />
+                    <img src={guardados} alt="Link Solid" />
                     </div>
                     <div className="text">Guardados</div>
                 </div>
                 <div className="option">
                     <div className="icon-inner">
-                    <img src={notificaciones} alt="Link Solid" className="tab-content-footer-share" />
+                    <img src={notificaciones} alt="Link Solid"/>
                     </div>
                     <div className="text">Notificaciones</div>
                 </div>
