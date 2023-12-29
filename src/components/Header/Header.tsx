@@ -3,7 +3,7 @@ import logo from "../../assets/images/logo.svg";
 import preferencias_menu from "../../assets/images/preferencias-menu.svg";
 import "./Header.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faMagnifyingGlass, faLayerGroup, faBookmark, faRoute, faDolly, faListCheck, faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faMagnifyingGlass, faBookmark, faRoute, faDolly, faListCheck, faCaretDown, faCaretUp } from '@fortawesome/free-solid-svg-icons';
 import DropdownMenuUser from './DropdownMenuUser/DropdownMenuUser';
 import DropdownMenuCompany from "./DropdownMenuCompany/DropdownMenuCompany";
 
