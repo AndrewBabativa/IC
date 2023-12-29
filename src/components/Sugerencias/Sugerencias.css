@@ -114,8 +114,8 @@
     left: 50%; /* Centrar horizontalmente */
     transform: translateX(-50%); /* Centrar horizontalmente */
     border-radius: 20px;
-background: var(--green-500, #ADCAB8);
-    
+    background: var(--green-500, #ADCAB8);
+    cursor: pointer;
   }
 
   .sugerencia-ver-mas-texto {

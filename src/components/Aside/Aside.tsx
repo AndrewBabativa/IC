@@ -15,8 +15,8 @@ const Aside: React.FC = () => {
                         <span className="test-exporter">Test de exportador</span>
                         <span className="description-text">Texto descriptivo sobre qué es esta herramienta.</span>
                     </div>
-                    <span className="frame-8">
-                        <span className="test-button">Hacer Test</span>
+                    <span className="btn-ver">
+                        <span className="txt-ver">Hacer Test</span>
                         <FontAwesomeIcon icon={faArrowRight} color="#ECEEEF" />
                     </span>
                 </div>
@@ -30,8 +30,8 @@ const Aside: React.FC = () => {
                         <span className="calculadora-precios">Calculadora de precios</span>
                         <span className="texto-descriptivo">Texto descriptivo sobre qué es esta herramienta.</span>
                     </div>
-                    <span className="frame-8">
-                        <span className="calcular-precios">Calcular precios</span>
+                    <span className="btn-ver">
+                        <span className="txt-ver">Calcular precios</span>
                         <FontAwesomeIcon icon={faArrowRight} color="#ECEEEF" />
                     </span>
                 </div>
@@ -45,8 +45,8 @@ const Aside: React.FC = () => {
                         <span className="calculadora-de-precios">Calculadora de precios competitivos</span>
                         <span className="texto-descriptivo">Texto descriptivo sobre qué es esta</span>
                     </div>
-                    <span className="frame-8">
-                        <span className="calcular-precios">Calcular precios</span>
+                    <span className="btn-ver">
+                        <span className="txt-ver">Calcular precios</span>
                         <FontAwesomeIcon icon={faArrowRight} color="#ECEEEF" />
                     </span>
                 </div>
@@ -60,8 +60,8 @@ const Aside: React.FC = () => {
                         <span className="calculadora-de-cubicaje">Calculadora de cubicaje</span>
                         <span className="texto-descriptivo">Texto descriptivo sobre qué es esta herramienta.</span>
                     </div>
-                    <span className="frame-8">
-                        <span className="calcular-cubicaje">Calcular cubicaje</span>
+                    <span className="btn-ver">
+                        <span className="txt-ver">Calcular cubicaje</span>
                         <FontAwesomeIcon icon={faArrowRight} color="#ECEEEF" />
                     </span>
                 </div>

@@ -155,20 +155,26 @@ aside {
 }
 
 /* Frame 8 */
-.frame-8 {
+.btn-ver {
     display: flex;
-    flex-direction: row;
+    padding: 9px 24px;
     justify-content: center;
     align-items: center;
-    padding: 9px 24px;
-    width: auto;
-    background: #2E3C46;
-    border-radius: 20px;
-    flex: none;
-    order: 1;
+    gap: 10px;
     align-self: stretch;
-    flex-grow: 0;
-    min-width: 12.5em;
+    border-radius: 20px;
+    background: var(--gray-800, #2E3C46);
+    cursor: pointer;
+}
+
+.txt-ver{
+    color: var(--gray-100, #ECEEEF);
+    font-family: Barlow;
+    font-size: 15.19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21.266px; /* 140% */
+    flex: 1 0 0;
 }
 
 /* Card 2 */

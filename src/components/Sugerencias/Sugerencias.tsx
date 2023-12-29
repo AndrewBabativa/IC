@@ -26,7 +26,7 @@ const Sugerencias: React.FC = () => {
         </div>
         <div className="sugerencia-ver-mas-boton">
         <div className="sugerencia-ver-mas-texto">Ver más sugerencias</div>
-        <FontAwesomeIcon icon={faArrowRight} color="#ECEEEF" />
+        <FontAwesomeIcon icon={faArrowRight} color="black" />
       </div>
       </div>
     </div>
