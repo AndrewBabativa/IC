@@ -1,12 +1,11 @@
-/* Group 65 */
 .group-65 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 12%;
-    width: 958px;
-    height: 146px;
+    max-width: 958px; /* Use max-width instead of width */
+    height: 11.125em;
     margin: 0 auto;
+    overflow: hidden; /* Hide any content that overflows the section */
 }
 
 .expand-horizons {
@@ -15,7 +14,8 @@
     font-size: 34.639px;
     font-style: normal;
     font-weight: 700;
-    line-height: 48.496px; /* 140.005% */
+    line-height: 48.496px; 
+    height: 9.125em;
 }
 
 .banner {
