@@ -2,7 +2,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    min-height: 40vh;
+    height: 30vh;
     color: #e3efea;
 }
 
@@ -13,13 +13,13 @@ footer div {
     height: 7vh;
 }
 
-span {
+footer span {
     color: var(--gray-200, #D4D8DB);
-font-family: Barlow;
-font-size: 15.19px;
-font-style: normal;
-font-weight: 600;
-line-height: 21.266px; /* 140% */
+    font-family: Barlow;
+    font-size: 15.19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21.266px; /* 140% */
 }
 
 footer div > span, footer div > svg {
@@ -33,4 +33,5 @@ footer div > span:hover {
 
 footer div > svg {
     margin: 0 1%;
+
 }

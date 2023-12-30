@@ -18,7 +18,7 @@ main {
 .tabs {
     display: flex;
     gap: 1em;
-    border-bottom: 3px solid #384651;
+    border-bottom: 1px solid var(--gray-700, #425563);
     padding-left: 0;
     width: 100%;
 }

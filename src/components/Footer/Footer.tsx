@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
   return (
     <footer>
       <div>
-        <span>Acerca de interconectar Servicios</span>
+        <span>Acerca de Interconectar</span>
         <span>Servicios</span>
         <span>Términos de servicio</span>
         <span style={{marginRight: '250px'}}>Política de privacidad</span>
